@@ -4,17 +4,132 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59fa3aa8-37e9-4c04-9957-3cbfc10f0412" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HumansVsGoblinsV2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    <list default="true" id="59fa3aa8-37e9-4c04-9957-3cbfc10f0412" name="Changes" comment="humansvsgolbins v2">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/TileMap.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/JAR/BlueBoyTreasure v1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Map/world01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Map/worldV2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Monster/greenslime_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Monster/greenslime_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/NPC/oldman_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/NPC/oldman_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/NPC/oldman_left_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/NPC/oldman_left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/NPC/oldman_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/NPC/oldman_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/NPC/oldman_up_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/NPC/oldman_up_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/axe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/boots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/chest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/coin_bronze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/door.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/heart_blank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/heart_full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/heart_half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/manacrystal_blank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/manacrystal_full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/potion_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/shield_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/shield_wood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Object/sword_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_left_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_up_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_up_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_left_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_up_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_up_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_left_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_up_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_up_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Projectile/fireball_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Projectile/fireball_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Projectile/fireball_left_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Projectile/fireball_left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Projectile/fireball_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Projectile/fireball_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Projectile/fireball_up_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Projectile/fireball_up_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Projectile/rock_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/BlueBoyAdventure.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/burning.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/coin.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/cursor.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/cuttree.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/fanfare.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/hitmonster.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/levelup.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/powerup.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/receivedamage.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Sound/unlock.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/grass00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/grass01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/OldVersion/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/OldVersion/grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/OldVersion/sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/OldVersion/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/OldVersion/wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles/OldVersion/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles_Interactive/drytree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Tiles_Interactive/trunk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HumansVsGoblinsV2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HumansVsGoblinsV2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KeyHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +159,52 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="28U2aW3mdp5aOYeqj0nXVRYsUTV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/kevinsmacbookair/JavaMethods/HumansVsGoblinsV2/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/maps" />
+      <recent name="$PROJECT_DIR$/src/res" />
+      <recent name="$PROJECT_DIR$/res/Tiles" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/Engine" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Engine.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Engine.Main" />
+      <module name="HumansVsGoblinsV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Engine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="HumansVsGoblinsV2" />
@@ -72,6 +221,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Engine.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -84,6 +234,14 @@
       <option name="presentableId" value="Default" />
       <updated>1651256907656</updated>
     </task>
+    <task id="LOCAL-00001" summary="humansvsgolbins v2">
+      <created>1651259299291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651259299292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,5 +254,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="humansvsgolbins v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="humansvsgolbins v2" />
   </component>
 </project>
