@@ -1,5 +1,4 @@
-# HumansVsGoblinsGame
-2D RPG
+#2DAdventure
 
-Play as a human, obtain items, destroy goblins, level up in this open world rpg!
+Slay monsters, obtain items, finish quests in this open world RPG.
 Thanks for playing!
