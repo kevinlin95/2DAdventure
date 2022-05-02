@@ -5,7 +5,7 @@ import main.GamePanel;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.*;
-import java.nio.file.Path;
+import java.util.Objects;
 
 public class TileManager {
 
@@ -26,20 +26,19 @@ public class TileManager {
 
         try{
             tile[0] = new Tile();
-            tile[0].image = ImageIO.read(new File("/Users/kevinsmacbookair/JavaMethods/HumansVsGoblinsV2/src/res/tiles/newVersion/grass00.png"));
+            tile[0].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Tiles/NewVersion/grass00.png")));
 
             tile[5] = new Tile();
-            tile[5].image = ImageIO.read(new File("/Users/kevinsmacbookair/JavaMethods/HumansVsGoblinsV2/src/res/tiles/NewVersion/road05.png"));
+            tile[5].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Tiles/NewVersion/road05.png")));
 
             tile[6] = new Tile();
-            tile[6].image = ImageIO.read(new File("/Users/kevinsmacbookair/JavaMethods/HumansVsGoblinsV2/src/res/tiles/newVersion/road06.png"));
+            tile[6].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Tiles/NewVersion/road06.png")));
 
             tile[11] = new Tile();
-            tile[11].image = ImageIO.read(new File("/Users/kevinsmacbookair/JavaMethods/HumansVsGoblinsV2/src/res/tiles/NewVersion/road11.png"));
+            tile[11].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Tiles/NewVersion/road11.png")));
 
             tile[12] = new Tile();
-            tile[12].image = ImageIO.read(new File("/Users/kevinsmacbookair/JavaMethods/HumansVsGoblinsV2/src/res/tiles/NewVersion/road12.png"));
-
+            tile[12].image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Tiles/NewVersion/road12.png")));
         }catch(IOException e){
             e.printStackTrace();
         }
@@ -68,8 +67,8 @@ public class TileManager {
                 }
             }
             br.close();
-        }catch(Exception e){
-            e.printStackTrace();
+        }catch(Exception ignored){
+
         }
     }
     public void draw(Graphics2D g2){
@@ -79,7 +78,8 @@ public class TileManager {
         int y = 0;
 
         while(col < gp.maxScreenCol && row < gp.maxScreenRow){
-            int tileNum = mapTileNum[col][row]; // TileMap.rtf
+
+            int tileNum = mapTileNum[col][row]; // TileMap.txt
 
             g2.drawImage(tile[tileNum].image, x, y, gp.tileSize, gp.tileSize, null);
             col++;
