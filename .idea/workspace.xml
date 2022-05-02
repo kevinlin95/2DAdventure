@@ -5,125 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59fa3aa8-37e9-4c04-9957-3cbfc10f0412" name="Changes" comment="humansvsgolbins v2">
-      <change afterPath="$PROJECT_DIR$/res/Map/TileMap.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HumansVsGoblinsV2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HumansVsGoblinsV2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maps/TileMap.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/JAR/BlueBoyTreasure v1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/res/JAR/BlueBoyTreasure v1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Map/world01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/Map/world01.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Map/worldV2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/Map/worldV2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Monster/greenslime_down_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Monster/greenslime_down_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Monster/greenslime_down_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Monster/greenslime_down_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/NPC/oldman_down_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/NPC/oldman_down_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/NPC/oldman_down_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/NPC/oldman_down_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/NPC/oldman_left_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/NPC/oldman_left_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/NPC/oldman_left_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/NPC/oldman_left_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/NPC/oldman_right_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/NPC/oldman_right_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/NPC/oldman_right_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/NPC/oldman_right_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/NPC/oldman_up_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/NPC/oldman_up_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/NPC/oldman_up_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/NPC/oldman_up_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/axe.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/axe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/boots.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/boots.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/chest.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/chest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/coin_bronze.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/coin_bronze.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/door.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/door.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/heart_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/heart_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/heart_full.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/heart_full.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/heart_half.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/heart_half.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/key.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/key.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/manacrystal_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/manacrystal_blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/manacrystal_full.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/manacrystal_full.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/potion_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/potion_red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/shield_blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/shield_blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/shield_wood.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/shield_wood.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Object/sword_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Object/sword_normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_down_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_attack_down_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_down_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_attack_down_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_left_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_attack_left_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_left_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_attack_left_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_right_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_attack_right_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_right_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_attack_right_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_up_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_attack_up_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_attack_up_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_attack_up_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_down_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_axe_down_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_down_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_axe_down_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_left_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_axe_left_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_left_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_axe_left_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_right_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_axe_right_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_right_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_axe_right_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_up_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_axe_up_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/AttackingSprites/boy_axe_up_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/AttackingSprites/boy_axe_up_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_down_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/WalkingSprites/boy_down_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_down_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/WalkingSprites/boy_down_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_left_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/WalkingSprites/boy_left_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_left_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/WalkingSprites/boy_left_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_right_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/WalkingSprites/boy_right_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_right_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/WalkingSprites/boy_right_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_up_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/WalkingSprites/boy_up_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Player/WalkingSprites/boy_up_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/WalkingSprites/boy_up_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Projectile/fireball_down_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Projectile/fireball_down_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Projectile/fireball_down_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Projectile/fireball_down_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Projectile/fireball_left_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Projectile/fireball_left_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Projectile/fireball_left_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Projectile/fireball_left_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Projectile/fireball_right_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Projectile/fireball_right_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Projectile/fireball_right_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Projectile/fireball_right_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Projectile/fireball_up_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Projectile/fireball_up_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Projectile/fireball_up_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Projectile/fireball_up_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Projectile/rock_down_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Projectile/rock_down_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/BlueBoyAdventure.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/BlueBoyAdventure.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/burning.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/burning.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/coin.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/coin.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/cursor.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/cursor.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/cuttree.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/cuttree.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/fanfare.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/fanfare.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/hitmonster.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/hitmonster.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/levelup.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/levelup.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/powerup.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/powerup.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/receivedamage.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/receivedamage.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Sound/unlock.wav" beforeDir="false" afterPath="$PROJECT_DIR$/res/Sound/unlock.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/earth.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/earth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/grass00.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/grass00.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/grass01.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/grass01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road00.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road00.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road01.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road02.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road03.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road04.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road05.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road06.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road07.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road08.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road09.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road10.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road11.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/road12.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/road12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/tree.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/wall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water00.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water00.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water01.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water02.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water03.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water04.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water05.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water06.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water07.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water08.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water09.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water10.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water11.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water12.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/NewVersion/water13.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/NewVersion/water13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/OldVersion/earth.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/OldVersion/earth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/OldVersion/grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/OldVersion/grass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/OldVersion/sand.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/OldVersion/sand.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/OldVersion/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/OldVersion/tree.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/OldVersion/wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/OldVersion/wall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles/OldVersion/water.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles/OldVersion/water.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles_Interactive/drytree.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles_Interactive/drytree.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Tiles_Interactive/trunk.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Tiles_Interactive/trunk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HumansVsGoblinsV2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2DAdventure.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/kevinsmacbookair/JavaMethods/HumansVsGoblinsV2/res/Map",
+    "last_opened_file_path": "/Users/kevinsmacbookair/PersonalProjects/HumansVsGoblinsV2",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -181,17 +64,17 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
       <recent name="$PROJECT_DIR$/res/Map" />
       <recent name="$PROJECT_DIR$/res" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/maps" />
-      <recent name="$PROJECT_DIR$/src/res" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Engine.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Engine.Main" />
-      <module name="HumansVsGoblinsV2" />
+      <module name="2DAdventure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Engine.*" />
@@ -204,7 +87,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="HumansVsGoblinsV2" />
+      <module name="2DAdventure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -256,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651434962329</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="humansvsgolbins v2">
+      <created>1651466937859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651466937859</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
