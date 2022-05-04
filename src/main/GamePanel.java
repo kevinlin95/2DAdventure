@@ -8,22 +8,29 @@ import java.awt.*;
 
 public class GamePanel extends JPanel implements Runnable {
 
-    //Screen Settings
+    // Screen Settings
     final int originalTileSize = 16; // 16x16 tile
-    final int scale = 3; // scaling tile
-    public final int tileSize = originalTileSize * scale; // 48x48 tile
-    // 4 by 3 ratio || 16 x 12 tile
+    final int scale = 2; // scaling tile
+    public final int tileSize = originalTileSize * scale; // 16 tile
+    // 4 by 4 ratio || 50 x 50 tile
     public final int maxScreenCol = 16;
     public final int maxScreenRow = 12;
-    public final int screenWidth = tileSize * maxScreenCol; // 768 pixels
-    public final int screenHeight = tileSize * maxScreenRow; // 576 pixels
+    public final int screenWidth = tileSize * maxScreenCol; // 2500px
+    public final int screenHeight = tileSize * maxScreenRow; // 2500px
 
+    // World Settings
+    public final int maxWorldCol = 50;
+    public final int maxWorldRow = 50;
+    public final int worldWidth = tileSize * maxWorldCol;
+    public final int worldHeight = tileSize * maxWorldRow;
+
+    // Frames per second
     final double FRAMES_PER_SECOND = 60.0;
 
     TileManager tileM = new TileManager(this);
     KeyHandler keyH = new KeyHandler();
     Thread gameThread;
-    Player player = new Player(this, keyH);
+    public Player player = new Player(this, keyH);
 
 
     public GamePanel() {
@@ -34,12 +41,13 @@ public class GamePanel extends JPanel implements Runnable {
         this.setFocusable(true);
     }
 
+    // Do not touch, needed to run game
     public void startGameThread(){
         // constructing a new thread here and referencing it will automatically call run();
         gameThread = new Thread(this);
         gameThread.start();
     }
-
+    // Do not touch, needed to run game
     @Override
     public void run() {
         // as long as gameThread exists, game will run, main loop
@@ -72,6 +80,7 @@ public class GamePanel extends JPanel implements Runnable {
         }
     }
 
+    // do not touch
     public void update(){
 
         player.update();
