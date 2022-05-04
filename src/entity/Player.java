@@ -32,7 +32,7 @@ public class Player extends Entity{
 
         worldX = gp.tileSize * 23;
         worldY = gp.tileSize * 21;
-        speed = 4;
+        speed = 1;
         direction = "down";
     }
     // Player Sprites and their attack animations

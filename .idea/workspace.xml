@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="59fa3aa8-37e9-4c04-9957-3cbfc10f0412" name="Changes" comment="Fixes to titles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Map/TileMap.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/Map/TileMap.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,19 +45,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kevinsmacbookair/PersonalProjects/2DAdventure&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/kevinsmacbookair/PersonalProjects/2DAdventure",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/Map" />
@@ -160,14 +157,55 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="97ac5e1d-bb7b-4cb2-872e-688274f29ac6">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/kevinsmacbookair/PersonalProjects/2DAdventure/src/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="97ac5e1d-bb7b-4cb2-872e-688274f29ac6" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
