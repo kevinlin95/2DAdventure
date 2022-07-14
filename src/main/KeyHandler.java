@@ -5,6 +5,7 @@ import java.awt.event.KeyListener;
 
 public class KeyHandler implements KeyListener {
 
+    // Keyboard Shortcuts
     public boolean upPressed, downPressed, leftPressed, rightPressed;
 
     @Override

@@ -7,6 +7,7 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.Objects;
 
 public class Player extends Entity{
 
@@ -41,17 +42,17 @@ public class Player extends Entity{
         speed = 4;
         direction = "down";
     }
-    // Player Sprites and their attack animations
+    // Player Sprites and their walk/attack animations
     public void getPlayerImage(){
         try{
-            up1 = ImageIO.read(getClass().getResourceAsStream("/Player/WalkingSprites/boy_up_1.png"));
-            up2 = ImageIO.read(getClass().getResourceAsStream("/Player/WalkingSprites/boy_up_2.png"));
-            down1 = ImageIO.read(getClass().getResourceAsStream("/Player/WalkingSprites/boy_down_1.png"));
-            down2 = ImageIO.read(getClass().getResourceAsStream("/Player/WalkingSprites/boy_down_2.png"));
-            left1 = ImageIO.read(getClass().getResourceAsStream("/Player/WalkingSprites/boy_left_1.png"));
-            left2 = ImageIO.read(getClass().getResourceAsStream("/Player/WalkingSprites/boy_left_2.png"));
-            right1 = ImageIO.read(getClass().getResourceAsStream("/Player/WalkingSprites/boy_right_1.png"));
-            right2 = ImageIO.read(getClass().getResourceAsStream("/Player/WalkingSprites/boy_right_2.png"));
+            up1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Player/WalkingSprites/boy_up_1.png")));
+            up2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Player/WalkingSprites/boy_up_2.png")));
+            down1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Player/WalkingSprites/boy_down_1.png")));
+            down2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Player/WalkingSprites/boy_down_2.png")));
+            left1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Player/WalkingSprites/boy_left_1.png")));
+            left2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Player/WalkingSprites/boy_left_2.png")));
+            right1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Player/WalkingSprites/boy_right_1.png")));
+            right2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/Player/WalkingSprites/boy_right_2.png")));
         }catch(IOException e){
             e.printStackTrace();
         }

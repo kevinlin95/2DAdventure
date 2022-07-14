@@ -9,6 +9,8 @@ import java.util.Objects;
 
 public class TileManager {
 
+    // Class that defines tile types and number of tiles.
+
     GamePanel gp;
     public Tile[] tile;
 
